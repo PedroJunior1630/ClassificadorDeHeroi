@@ -1,8 +1,17 @@
+// Variáveis com os valores de nome e experiência armazenadas
 let nome = "Ging";
-let xp = 5780;
+let xp = 10002;
+
+// Mensagem mostrando o nome do herói e seu XP
 console.log("O herói "+nome+" tem "+xp+" de experiência.");
+
+
+// Estruturas de decisões para definir o nível
 if (xp < 1000){
+    // Varivael que armazena o valor necessário para próximo nível
     proximaclass = 1001 - xp;
+    
+    // Mensagens que diz que o nível, o próximo e o restante para avançar.
     console.log("Nível: Ferro | Próximo Nível: Bronze");
     console.log("Restante para o próximo nível: "+proximaclass)
 }
