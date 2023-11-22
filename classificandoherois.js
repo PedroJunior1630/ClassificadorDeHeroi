@@ -1,6 +1,10 @@
 // Variáveis com os valores de nome e experiência armazenadas
 let nome = "Ging";
+<<<<<<< HEAD
 let xp = 10002;
+=======
+let xp = 10001;
+>>>>>>> 04c952a0433a29550e0e812f3a86b9fd7b87b886
 
 // Mensagem mostrando o nome do herói e seu XP
 console.log("O herói "+nome+" tem "+xp+" de experiência.");
