@@ -1,6 +1,6 @@
 let vitorias = 400;
 let derrotas = 294;
-let saldo =  vitorias - derrotas;
+let saldo = vitorias - derrotas;
 console.log("Vitorias: "+vitorias+" Derrotas: "+derrotas);
 console.log("Saldo: "+saldo);
 if(saldo<10){
